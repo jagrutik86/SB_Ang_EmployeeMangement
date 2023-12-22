@@ -1,0 +1,36 @@
+/* Apply general styling to the form container */
+.form-container {
+    margin-top: 50px; /* Adjust the top margin as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style form inputs */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+/* Style form submit button */
+.btn-success {
+    background-color: #434145;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #4a4646;
+}

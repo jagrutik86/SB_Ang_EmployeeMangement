@@ -1,0 +1,71 @@
+/* Navbar styling */
+.navbar {
+   background-color: rgb(25, 153, 238);
+   font-weight: 800;
+   font-size: large;
+   padding: 5px;
+}
+
+.navbar-nav {
+text-align: left;
+margin: 0;
+}
+
+.nav-item {
+    margin-right: 10px;
+    
+}
+
+.nav-link {
+    color: black;
+    
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: white; /* Color when hovered or active */
+}
+
+h1{
+    text-align: center;
+    color: rgb(1, 7, 15) ;
+}
+
+/* Page title styling */
+.text-center {
+    margin-top: 20px;
+}
+
+/* Container styling */
+.container {
+    margin-top: 20px;
+    background-image: url('../assets/Emplyee 2.jpg');
+
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    background-color: white;
+    padding: 4px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(25, 153, 238);
+    margin-inline-start: auto;
+}
+
+.footer span {
+    font-size: 20px;
+    color: black;
+   
+}
+
+/* Optional: Add some spacing to the footer text */
+.footer span::before {
+    content: '|';
+    margin: 0 10px;
+    color: rgb(201, 38, 158);
+}
+
+

@@ -1,0 +1,36 @@
+/* Container styling */
+div {
+    
+    margin-bottom: 10px;
+}
+
+/* Title styling */
+h3 {
+    color: rgb(236, 225, 225);
+    text-align: center;
+    background-color: black;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Data styling */
+div label::after {
+    content: ':';
+    margin-right: 5px;
+}
+
+/* Optional: Style the data differently for better readability */
+div {
+    display: flex;
+    align-items: center;
+}
+
+/* Optional: Add some spacing between the label and data */
+div label,
+div span {
+    margin-bottom: 5px;
+}

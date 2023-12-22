@@ -1,0 +1,44 @@
+/* Style the heading */
+h2 {
+    text-align: center;
+    color: black;
+}
+
+/* Style the table */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Style the table header */
+.table th {
+    background-color: rgb(20, 21, 21);
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table rows */
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style the table striped rows */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+/* Style the action buttons in the last column */
+.btn-info,
+.btn-danger {
+    padding: 8px 12px;
+    margin-right: 5px;
+}
+
+/* Optional: Add some spacing between the action buttons */
+.btn-info + .btn-danger,
+.btn-danger + .btn-info {
+    margin-left: 5px;
+}
